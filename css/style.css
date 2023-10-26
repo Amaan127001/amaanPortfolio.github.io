@@ -19,6 +19,11 @@
     --shadow-color: rgba(0, 0, 0, .2);
 }
 
+html, body {
+    width: auto!important;
+    overflow-x: hidden!important;
+}
+
 .dark-mode {
     --bg-color: #0b061f;
     --text-color: #fdfdfd;
@@ -27,7 +32,6 @@
 
 html{
     font-size: 62.5%;
-    overflow-x: hidden;
 }
 
 a{
