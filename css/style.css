@@ -81,6 +81,11 @@ body{
     margin-right: 3.5rem;
 }
 
+.mob{
+    margin-right: 5rem;
+    display: none;
+}
+
 .header.sticky .navbar a{
     color: var(--text-color);
 }
@@ -286,8 +291,8 @@ section{
 
 .home-img img{                       /* <----- */
     position: absolute;
-    bottom: -6rem;
-    right: 5.0rem;
+    bottom: 15rem;
+    right: -1rem;
     width: 43rem;
     pointer-events: none;
 }
@@ -605,6 +610,11 @@ span{
     outline-color: var(--white-color);
 }
 
+b{
+    color: var(--main-color);
+}
+
+
 .footer-iconTop a i{
     font-size: 2.4rem;
     color: #333;
@@ -652,6 +662,10 @@ span{
     .navbar a:nth-child(1),
     .navbar a:nth-child(2){
         color: var(--main-color);
+    }
+
+    .mob{
+        display: block;
     }
 
     .navbar a.active::before{
@@ -902,4 +916,35 @@ span{
         text-align: center;
         margin-top: 2rem;
     }
+}
+
+.ic{
+    font-weight: 400;
+    color: var(--main-color);
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.ics{
+    font-weight: 400;
+    color: var(--main-color);
+    font-size: 2rem !important;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.portfolio b{
+    color: black;
+    text-decoration: .3rem solid var(--bg-color) underline;
+}
+
+.mydet{
+    text-align: center;
+    font-size: 2rem;
+}
+
+::selection{
+    color: black;
+    background-color: var(--main-color);
 }
