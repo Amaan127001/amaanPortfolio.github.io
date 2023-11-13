@@ -948,3 +948,9 @@ b{
     color: black;
     background-color: var(--main-color);
 }
+
+.your{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
