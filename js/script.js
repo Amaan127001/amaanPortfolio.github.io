@@ -73,7 +73,28 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .testimonial-wrapper, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
-ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.home-content h1, .sk, .skill-left, .about-img img', { origin: 'left' });
+ScrollReveal().reveal('.home-content h3, .home-content p, .skill-right, .about-content', { origin: 'right' });
 ScrollReveal().reveal('.mydet', { origin: 'right' });
 ScrollReveal().reveal('.your', { origin: 'left' });
+
+// circle view //////////////
+
+const circles = document.querySelectorAll('.circle');
+circles.forEach(elem=>{
+    var dots = elem.getAttribute("data-dots");
+    var marked = elem.getAttribute("data-percent");
+    var percent = Math.floor(dots*marked/100);
+    var points = "";
+    var rotate = 360 / dots;
+
+    for(let i=0; i<dots; i++){
+        points += `<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>`;
+    }
+    elem.innerHTML = points;
+
+    const pointsMarked = elem.querySelectorAll('.points');
+    for(let i=0; i<percent; i++){
+        pointsMarked[i].classList.add('marked');
+    }
+})
