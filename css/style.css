@@ -12,11 +12,11 @@
 }
 
 :root {
-    --bg-color: #fdfdfd;
-    --text-color: #333;
+    --bg-color: #0b061f;
+    --text-color: #fdfdfd;
     --main-color: #754ef9;
     --white-color: #fdfdfd;
-    --shadow-color: rgba(0, 0, 0, .2);
+    --shadow-color: rgba(0, 0, 0, .7);
     --main-box-shadow: 0 0 .5rem #754ef9;
     --font-main-text-shadow: 0 0 1rem rgba(117, 78, 249, 0.3), 0 0 2rem rgba(117, 78, 249, 0.3), 0 0 3rem rgba(117, 78, 249, 0.3), 0 0 4rem rgba(117, 78, 249, 0.3), 0 0 7rem rgba(117, 78, 249, 0.3), 0 0 8rem rgba(117, 78, 249, 0.3), 0 0 10rem rgba(117, 78, 249, 0.3), 0 0 15rem rgba(117, 78, 249, 0.3);
 }
@@ -28,9 +28,9 @@ body {
 }
 
 .dark-mode {
-    --bg-color: #0b061f;
-    --text-color: #fdfdfd;
-    --shadow-color: rgba(0, 0, 0, .7);
+    --bg-color: #fdfdfd;        
+    --text-color: #333;
+    --shadow-color: rgba(0, 0, 0, .2);
 }
 
 html {
