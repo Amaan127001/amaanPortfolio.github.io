@@ -332,6 +332,14 @@ span {
     width: 36vw;
 }
 
+.about-img{
+    transition: transform 0.5s ease;
+}
+
+.about:hover .about-img{
+    transform: rotate(-90deg);
+}
+
 .heading {
     font-size: 4.5rem;
     text-align: center;
