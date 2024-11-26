@@ -980,7 +980,7 @@ b {
 }
 
 ::selection {
-    color: black;
+    color: gold;
     background-color: var(--main-color);
 }
 
