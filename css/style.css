@@ -802,7 +802,7 @@ b {
     }
 
     .home-content .social-media a {
-        margin: 1.5rem .75rem 2rem;
+        margin: 1.2rem .6rem 1.5rem;
     }
 
     .home .profession-container {
@@ -813,7 +813,7 @@ b {
 
     .home .profession-container .profession-box {
         position: fixed;
-        top: 60%;
+        top: 70%;
         left: 0;
         border-radius: 0;
         width: 100%;
@@ -862,7 +862,7 @@ b {
 
     .home .profession-container .overlay {
         position: fixed;
-        top: 80%;
+        top: 78%;
         left: 50%;
         /* <----- */
         right: 0;
@@ -935,23 +935,27 @@ b {
     }
 
     .home-content .social-media a {
-        margin: 1.2rem .5rem 1.5rem;
+        margin: 1rem .4rem 1.2rem;
+    }
+
+    .home .profession-container .profession-box {
+        top: 72%;
     }
 
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-100px, -200px);
+        transform: rotate(-90deg) translate(-110px, -220px);
     }
 
     .home .profession-box .profession:nth-child(2) {
-        transform: rotate(0deg) translate(0px, -260px);
+        transform: rotate(0deg) translate(0px, -335px);
     }
 
     .home .profession-box .profession:nth-child(3) {
-        transform: rotate(90deg) translate(-90px, -360px);
+        transform: rotate(90deg) translate(-105px, -440px);
     }
 
     .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-180px, -260px);
+        transform: rotate(180deg) translate(-210px, -335px);
     }
 
     .home .profession h3 {
@@ -963,7 +967,7 @@ b {
     }
 
     .home .profession-container .overlay {
-        top: 75%;
+        top: 80%;
     }
 
     .contact form .input-box input {
