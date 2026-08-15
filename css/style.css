@@ -788,21 +788,21 @@ b {
     }
 
     .home {
-        padding: 0 3% 23rem;
+        padding: 8.5rem 3% 23rem;
         justify-content: center;
         text-align: center;
     }
 
     .home-content h3 {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
 
     .home-content h1 {
-        font-size: 5rem;
+        font-size: 4.2rem;
     }
 
     .home-content .social-media a {
-        margin: 2.5rem .75rem 3rem;
+        margin: 1.5rem .75rem 2rem;
     }
 
     .home .profession-container {
@@ -923,35 +923,47 @@ b {
     }
 
     .home {
-        padding: 0 3% 30rem;
+        padding: 8.5rem 3% 26rem;
+    }
+
+    .home-content h1 {
+        font-size: 3.6rem;
+    }
+
+    .home-content h3 {
+        font-size: 2rem;
+    }
+
+    .home-content .social-media a {
+        margin: 1.2rem .5rem 1.5rem;
     }
 
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-110px, -220px);
+        transform: rotate(-90deg) translate(-100px, -200px);
     }
 
     .home .profession-box .profession:nth-child(2) {
-        transform: rotate(0deg) translate(5px, -335px);
+        transform: rotate(0deg) translate(0px, -260px);
     }
 
     .home .profession-box .profession:nth-child(3) {
-        transform: rotate(90deg) translate(-105px, -440px);
+        transform: rotate(90deg) translate(-90px, -360px);
     }
 
     .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-210px, -335px);
+        transform: rotate(180deg) translate(-180px, -260px);
     }
 
     .home .profession h3 {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     .home .profession i {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
 
     .home .profession-container .overlay {
-        top: 82%;
+        top: 75%;
     }
 
     .contact form .input-box input {
