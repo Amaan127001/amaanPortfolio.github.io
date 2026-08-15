@@ -862,12 +862,12 @@ b {
 
     .home .profession-container .overlay {
         position: fixed;
-        top: 78%;
+        top: 84%;
         left: 50%;
         /* <----- */
         right: 0;
-        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
-        border-width: 23.9rem;
+        transform: rotate(90deg) translate(-50%, 50%) scaleY(3.5);
+        border-width: 18rem;
     }
 
     .about {
