@@ -28,7 +28,7 @@ body {
 }
 
 .dark-mode {
-    --bg-color: #fdfdfd;        
+    --bg-color: #fdfdfd;
     --text-color: #333;
     --shadow-color: rgba(0, 0, 0, .2);
 }
@@ -140,7 +140,7 @@ section {
 }
 
 .home .home-content {
-    max-width: 44rem;
+    max-width: 62rem;
 }
 
 .home-content h3 {
@@ -332,11 +332,11 @@ span {
     width: 36vw;
 }
 
-.about-img{
+.about-img {
     transition: transform 0.5s ease;
 }
 
-.about:hover .about-img{
+.about:hover .about-img {
     transform: rotate(-90deg);
 }
 
@@ -703,7 +703,7 @@ b {
     }
 
     .home .home-content {
-        max-width: 50rem;
+        max-width: 60rem;
     }
 
     .home .profession-container .profession-box {
@@ -730,8 +730,9 @@ b {
     .footer {
         padding: 2rem 3%;
     }
-    
-    .skill-main{           /* <----- */
+
+    .skill-main {
+        /* <----- */
         grid-template-columns: 1fr !important;
     }
 
@@ -1009,7 +1010,8 @@ b {
 }
 
 .skill-main p,
-.skill-main span , .professional .box{
+.skill-main span,
+.professional .box {
     font-size: 1.6rem;
 }
 
@@ -1058,94 +1060,99 @@ b {
     box-shadow: var(--main-box-shadow);
 }
 
-.skill-bar .bar .html{
+.skill-bar .bar .html {
     width: 90%;
     animation: html 5s;
 }
 
-.skill-bar .bar .cpp{
+.skill-bar .bar .cpp {
     width: 85%;
     animation: cpp 6s;
 }
 
-.skill-bar .bar .css{
+.skill-bar .bar .css {
     width: 87%;
     animation: css 7s;
 }
 
-.skill-bar .bar .js{
+.skill-bar .bar .js {
     width: 77%;
     animation: js 8s;
 }
 
-.skill-bar .bar .py{
+.skill-bar .bar .py {
     width: 70%;
     animation: py 9s;
 }
 
 @keyframes html {
-    0%{
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 90%;
     }
 }
 
 @keyframes cpp {
-    0%{
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 85%;
     }
 }
 
 @keyframes css {
-    0%{
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 87%;
     }
 }
 
 @keyframes js {
-    0%{
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 77%;
     }
 }
 
 @keyframes py {
-    0%{
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 70%;
     }
 }
 
-.professional{
+.professional {
     margin-top: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.box{
+.box {
     margin: 1rem 0;
     flex: 1 1 15rem;
     position: relative;
 }
 
-.box .text{
+.box .text {
     text-align: center;
     color: var(--text-color);
 }
 
-.box .text big{
+.box .text big {
     font: 400;
     letter-spacing: 1px;
     position: absolute;
@@ -1154,12 +1161,12 @@ b {
     transform: translate(-50%, -50%);
 }
 
-.box .text small{
+.box .text small {
     display: block;
     font-weight: 700;
 }
 
-.circle{
+.circle {
     width: 100%;
     height: 120px;
     display: flex;
@@ -1167,7 +1174,7 @@ b {
     align-items: center;
 }
 
-.circle .points{
+.circle .points {
     width: 3px;
     height: 10px;
     background-color: var(--text-color);
@@ -1177,21 +1184,23 @@ b {
 }
 
 @keyframes glow {
-    0%{
+    0% {
         background-color: var(--text-color);
         box-shadow: none;
     }
-    100%{
+
+    100% {
         background-color: var(--main-color);
         box-shadow: var(--main-box-shadow);
     }
 }
 
-.points.marked{
+.points.marked {
     animation: glow 0.04s linear forwards;
     animation-delay: calc(var(--i)*0.05s);
 }
 
-.skill-left, .skill-right{
+.skill-left,
+.skill-right {
     margin-top: 2rem;
 }
